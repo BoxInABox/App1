@@ -1,0 +1,9 @@
+<p>
+    tabs works!
+</p>
+<ul class="nav nav-tabs">
+    <li role="presentation" (click)="toggleVisibility()"><a href="#">Home</a></li>
+</ul>
+<table class="table" style="margin: 30px">
+    <app-list *ngIf="visible == true"></app-list>
+</table>
